@@ -1,0 +1,10 @@
+src/
+examples/
+tests/
+tsconfig.json
+*.ts
+!*.d.ts
+.env
+.env.local
+*.log
+.DS_Store

@@ -1,0 +1,45 @@
+{
+  "name": "@degenshield/sdk",
+  "version": "0.0.1",
+  "description": "DegenShield SDK - Transaction Security for Solana",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "solana",
+    "security",
+    "transaction",
+    "wallet",
+    "protection",
+    "blockchain",
+    "sdk"
+  ],
+  "author": "DegenShield",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DegenShield/degenshield.git"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.0",
+    "@solana/spl-token": "^0.3.8",
+    "bs58": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.2"
+  },
+  "peerDependencies": {
+    "@solana/web3.js": "^1.87.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
